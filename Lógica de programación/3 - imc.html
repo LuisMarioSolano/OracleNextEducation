@@ -1,0 +1,34 @@
+<meta charset="UTF-8" />
+
+<h1>PROGRAMA - CALCULAR IMC</h1>
+
+<script>
+  function saltarlinea() {
+    document.write("<br>");
+    document.write("<br>");
+    document.write("<br>");
+  }
+  function print(frase) {
+    document.write(frase);
+    saltarlinea();
+  }
+
+  function calcularimc(peso, altura) {
+    return peso / (altura * altura);
+  }
+  nombre = prompt("informe su nombre");
+  pesoInformado = prompt("informe su peso");
+  alturaInformada = prompt("informe su altura");
+
+  imcCalculado = calcularimc(pesoInformado, alturaInformada);
+
+  print("El imc calculado de " + nombre + " es " + imcCalculado);
+
+  if (imcCalculado >= 18.5 && imcCalculado < 25) {
+    print(nombre + " tiene IMC normal");
+  } else if (imcCalculado >= 25 && imcCalculado <= 29.9) {
+    print(nombre + "tiene sobrepeso");
+  } else {
+    print (nombre + " tiene obesidad");
+  }
+</script>
