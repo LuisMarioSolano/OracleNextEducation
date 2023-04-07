@@ -1,0 +1,25 @@
+<meta charset="UTF-8" />
+
+<h1>PROGRAMA - JUEGO DE ADIVINAZIÓN</h1>
+
+<script>
+  function saltarlinea() {
+    document.write("<br>");
+    document.write("<br>");
+    document.write("<br>");
+  }
+  function print(frase) {
+    document.write(frase);
+    saltarlinea();
+  }
+
+  const numeroPensado = Math.round(Math.random()*10);
+  const numeroLanzado = parseInt(prompt("Escribe un número"));
+
+  if (numeroLanzado == numeroPensado) {
+    print ("Haz encontrado el número " + numeroPensado);
+  } else {
+    print ("Haz fallado, el número pensado era " + numeroPensado)
+  }
+
+</script>
