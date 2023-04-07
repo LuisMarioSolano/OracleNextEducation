@@ -13,9 +13,18 @@
     saltarlinea();
   }
 
-  const victorias = parseInt (prompt("informe la cantidad de victorias"));
-  const empates = parseInt (prompt("informe la cantidad de empates"));
+  const victorias = parseInt(prompt("informe la cantidad de victorias"));
+  const empates = parseInt(prompt("informe la cantidad de empates"));
   puntosTotal = victorias * 3 + empates;
 
   print("El total de puntos es: " + puntosTotal);
+
+  if (puntosTotal > 28) {
+    print("El equipo esta mejor que el año pasado");
+  } else {
+    print("El equipo esta peor que el año pasado");
+  }
+  if (puntosTotal == 28) {
+    print("El equipo esta igual que el año pasado");
+  }
 </script>
