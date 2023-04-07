@@ -1,0 +1,31 @@
+<meta charset="UTF-8" />
+
+<h1>PROGRAMA - AÑO MUNDIAL FIFA</h1>
+
+<script>
+    function saltarlinea() {
+    document.write("<br>");
+    document.write("<br>");
+    document.write("<br>");
+  }
+  function print(frase) {
+    document.write(frase);
+    saltarlinea();
+  }
+
+  let mundial = 1930;
+  let limite = parseInt(prompt("Ingrese un año limite"));
+
+  if (limite < mundial) {
+    print("No puedes ingresar un año menor a la creación de la fifa en 1930")
+  } else {
+      while (mundial <= limite) {
+        print("Hubo mundial de la FIFA en el año " + mundial );
+        mundial = mundial + 4;
+      } 
+      print("fin");
+  }
+
+  
+
+</script>
