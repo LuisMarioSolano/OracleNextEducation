@@ -1,0 +1,23 @@
+<meta charset="UTF-8" />
+
+<h1>PROGRAMA - CALCULAR LA TABLA DE MULTIPLICAR</h1>
+
+<script>
+    function saltarlinea() {
+    document.write("<br>");
+    document.write("<br>");
+    document.write("<br>");
+  }
+  function print(frase) {
+    document.write(frase);
+    saltarlinea();
+  }
+
+  let numero = parseInt(prompt("Ingrese un número para multiplicarlo"));
+  print("El número elegido es: " + numero);
+
+  for(i = 1; i <= 10; i++) {
+    print(numero + " x " + [i] + "= " + (numero *[i]));
+  }
+  
+</script>
