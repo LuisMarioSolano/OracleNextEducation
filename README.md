@@ -10,5 +10,8 @@ En este repositorio encontraremos mis ejercicios a lo largo de 6 meses siendo pa
   - [Ganar experiencia con Git](/Gana%20experiencia%20con%20Git/README.md)
 
 
+## Colaboradores 
 
-![image](https://user-images.githubusercontent.com/92195194/230744636-db700fb7-040f-420c-ae85-978fccf6af0f.png)
+| Nombre             | Perfil de GitHub                                       | Redes Sociales                                                                       |
+| ------------------ | ------------------------------------------------------ | ------------------------------------------------------------------------------------ |
+| Mario Solano       | [LuisMarioSolano](https://github.com/LuisMarioSolano)  | [LinkedIn](https://www.linkedin.com/in/luis-mario-solano-garcia/)                    |
