@@ -4,7 +4,7 @@ En este repositorio encontraremos mis ejercicios a lo largo de 6 meses siendo pa
 
 ## Índice
 1. Principiante en Programación G5 - ONE
-  - [Lógica de programación - Conceptos Primordiales](/L%C3%B3gica%20de%20programaci%C3%B3n/)
+  - [Lógica de programación - Conceptos Primordiales](/L%C3%B3gica%20de%20programaci%C3%B3n-Conceptos%20primordiales/README.md)
   - [Lógica de programación - Practicando con juegos y animaciones](/L%C3%B3gica%20de%20programaci%C3%B3n-Practicando%20con%20juegos%20y%20animaciones/README.md)
   - [Primeras páginas web](/Primeras%20p%C3%A1ginas%20web/README.md)
   - [Ganar experiencia con Git](/Gana%20experiencia%20con%20Git/README.md)
