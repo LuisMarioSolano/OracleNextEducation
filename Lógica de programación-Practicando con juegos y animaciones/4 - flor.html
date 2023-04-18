@@ -15,9 +15,13 @@
         pincel.fill();
     }
 
-    dibujarCirculo(300,200,20,"red");
-    dibujarCirculo(340,200,20,"black");
-    dibujarCirculo(260,200,20,"orange");
-    dibujarCirculo(300,160,20,"yellow");
-    dibujarCirculo(300,240,20,"blue");
+    function dibujarFlor(x,y) {
+        dibujarCirculo(x,y,10,"red");
+        dibujarCirculo(x+20,y,10,"black");
+        dibujarCirculo(x-20,y,10,"orange");
+        dibujarCirculo(x,y-20,10,"yellow");
+        dibujarCirculo(x,y+20,10,"blue");
+    }
+
+    dibujarFlor(300,200);
 </script>
