@@ -6,6 +6,8 @@
   pincel.fillStyle = "lightgray";
   pincel.fillRect(0, 0, 600, 400);
 
+  var radio = 10;
+
   function disenharCircunferencia(x, y, radio, color) {
     pincel.fillStyle = color;
     pincel.beginPath();
@@ -24,6 +26,19 @@
     x++;
   }
 
-  disenharCircunferencia(100,100, 10, "red")
+  function disenharObjetivo(x,y) {
+      disenharCircunferencia(x,y, radio + 20, "red")
+      disenharCircunferencia(x,y, radio + 10, "white")
+      disenharCircunferencia(x,y, radio, "red")
+  }
+
+  function sortearPosición(maximo) {
+    return Math.floor(Math.random()*maximo);
+  }
+
+  xAleatorio = sortearPosición(600);
+  yAleatorio = sortearPosición(400);
+
+  disenharObjetivo(xAleatorio,yAleatorio);
 //   setInterval(actualizarPantalla, 1);
 </script>
