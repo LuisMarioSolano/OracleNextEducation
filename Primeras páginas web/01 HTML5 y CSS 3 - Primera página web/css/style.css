@@ -1,7 +1,16 @@
-.text-center {
+body {
+    background-color: #ccc;
+}
+h1, p {
     text-align: center;
 }
-
+.banner {
+    width: 100%;
+}
 .mision {
     font-size: 20px;
+}
+
+.mision strong {
+    color: red;
 }
