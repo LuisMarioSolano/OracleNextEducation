@@ -1,0 +1,50 @@
+html {
+    box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+h1, h2, p{
+    text-align: center;
+}
+.header {
+    padding-left: 30px;
+}
+.header h1 {
+    text-align: start;
+}
+.banner {
+    width: 100%;
+}
+.principal {
+    background-color: #ccc;
+    padding: 20px;
+}
+.mision {
+    font-size: 20px;
+}
+
+.mision strong {
+    color: red;
+}
+
+/* diferenciales */
+.diferenciales {
+    background-color: #FFF;
+    padding: 30px;
+}
+.items {
+    font-style: italic;
+}
+ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+.diferenciales_img {
+    width: 50%;
+}
