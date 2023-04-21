@@ -1,3 +1,4 @@
+/* HEADER */
 header {
     background-color: #BBBBBB;
     padding: 20px 0;
@@ -32,11 +33,11 @@ nav a:hover {
     text-decoration: underline;
 }
 
-/* main */
+/* MAIN */
 .productos {
     width: 940px;
     margin: 0 auto;
-    padding-top: 50px;
+    padding: 50px 0 50px 0;
 }
 .productos li {
     display: inline-block;
@@ -69,4 +70,16 @@ nav a:hover {
     font-size: 20px;
     font-weight: bold;
     margin-top: 10px;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 40px;
+    background-image: url(../img/bg.jpg);
+}
+.copyright {
+    color: white;
+    font-size: 13px;
+    margin: 20px;
 }
