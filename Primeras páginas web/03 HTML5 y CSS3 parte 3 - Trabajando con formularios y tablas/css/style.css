@@ -1,50 +1,85 @@
-html {
-    box-sizing: border-box;
-}
-*,
-*:before,
-*:after {
-    box-sizing: inherit;
+/* HEADER */
+header {
+    background-color: #BBBBBB;
+    padding: 20px 0;
 }
 
-h1, h2, p{
-    text-align: center;
-}
-.header {
-    padding-left: 30px;
-}
-.header h1 {
-    text-align: start;
-}
-.banner {
-    width: 100%;
-}
-.principal {
-    background-color: #ccc;
-    padding: 20px;
-}
-.mision {
-    font-size: 20px;
+.caja{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
 }
 
-.mision strong {
-    color: red;
+nav{
+    position: absolute;
+    top:110px;
+    right: 0;
 }
 
-/* diferenciales */
-.diferenciales {
-    background-color: #FFF;
-    padding: 30px;
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
 }
-.items {
-    font-style: italic;
+
+nav a{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
 }
-ul {
+nav a:hover {
+    color: goldenrod;
+    text-decoration: underline;
+}
+
+/* MAIN */
+.productos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0 50px 0;
+}
+.productos li {
     display: inline-block;
+    text-align: center;
+    width: 30%;
     vertical-align: top;
-    width: 20%;
-    margin-right: 15%;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 10px;
 }
-.diferenciales_img {
-    width: 50%;
+.productos li:hover, 
+.productos li:hover h2 {
+    border-color:goldenrod;
+    font-size: 33px;
+    cursor: pointer;
+}
+.productos li:active {
+    border-color: green;
+}
+.productos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+.producto-descripcion {
+    font-size: 18px;
+}
+.producto-precio {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 40px;
+    background-image: url(../img/bg.jpg);
+}
+.copyright {
+    color: white;
+    font-size: 13px;
+    margin: 20px;
 }
