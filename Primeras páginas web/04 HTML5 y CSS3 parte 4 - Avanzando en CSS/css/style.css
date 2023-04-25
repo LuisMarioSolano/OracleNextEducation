@@ -1,0 +1,137 @@
+/* HEADER */
+header {
+    background-color: #BBBBBB;
+    padding: 20px 0;
+}
+
+.caja{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+nav{
+    position: absolute;
+    top:110px;
+    right: 0;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+nav a:hover {
+    color: goldenrod;
+    text-decoration: underline;
+}
+
+/* MAIN */
+.productos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0 50px 0;
+}
+.productos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.productos li:hover, 
+.productos li:hover h2 {
+    border-color:goldenrod;
+    font-size: 33px;
+    cursor: pointer;
+}
+.productos li:active {
+    border-color: green;
+}
+.productos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+.producto-descripcion {
+    font-size: 18px;
+}
+.producto-precio {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 40px;
+    background-image: url(../img/bg.jpg);
+}
+.copyright {
+    color: white;
+    font-size: 13px;
+    margin: 20px;
+}
+
+/* Contacto */
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+form {
+    margin: 40px 0;
+}
+form label, form legend {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.input-padron {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 20px;
+    width: 50%;
+}
+.checkbox {
+    margin: 20px 0;
+}
+.enviar {
+    width: 40%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: orange;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+.enviar:hover {
+    background-color: darkorange;
+    transform: scale(1.2);
+}
+
+table {
+    margin: 40px 40px;
+}
+thead {
+    background: #555;
+    color: white;
+    font-weight: bold;
+}
+td,th {
+    border: 1px solid #000000;
+    padding: 8px 15px;
+}
