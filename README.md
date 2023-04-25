@@ -1,6 +1,6 @@
-# Prácticas del programa Oracle Next Education
+# Oracle Next Education
 
-En este repositorio encontraremos mis ejercicios a lo largo de 6 meses siendo parte de Oracle Next Education. 
+En este repositorio encontraremos ejercicios realizados a lo largo de 6 meses siendo parte de Oracle Next Education. 
 
 ## Índice
 1. Principiante en Programación G5 - ONE
