@@ -4,4 +4,8 @@ En la carpeta de **Gana experiencia con Git** se encuentran varios recursos que 
 
 _Gracias Oracle Next Education._
 
+## Indice
+1. [¿Qué es Git?](que-es.md)
+2. [¿Comó instalar](como-instalar.md)
+
 [Regresar al inicio](/README.md)
