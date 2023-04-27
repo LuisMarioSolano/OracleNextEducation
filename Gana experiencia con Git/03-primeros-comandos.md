@@ -19,12 +19,27 @@ Debes configurar el nombre y el correo electrónico que utilizarás para tus com
 
 <br>
 
+### **Establecer VS Code como editor (recomendado)**
+Una opcion recomendada es establecer el IDE VS Code como editor predeterminado con el siguiente comando:
+
+``git config --global core.editor "code --wait"``
+<br>
+
+## Configurar saltos de linea segun el sistema.
+Cada sistema tiene su propia forma de interpretar saltos de linea, por ello se busca establecer una configuracion standar dependiendo del sistema usado para la manipulación de archivos.
+
+### Windows:
+`` git config --global core.autocrlf true ``
+
+### Linux y Mac:
+`` git config --global core.autocrlf input ``
+<br>
+
 ### **Consultar los datos de usuario**
 Para consultar los datos puedes usar el siguiente comando:
 
 ``git config --global -e``
 
-<br>
 <br>
 
 ## Crear un repositorio
