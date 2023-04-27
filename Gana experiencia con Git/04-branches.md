@@ -47,3 +47,5 @@ Por ejemplo, si se ha trabajado en un branch llamado "nueva-funcion" y se desea 
 ``git merge nueva-funcion``
 
 Esto cambiará al branch principal ("main") y realizará un merge del branch "nueva-funcion" en él.
+
+[Regresar](README.md)
