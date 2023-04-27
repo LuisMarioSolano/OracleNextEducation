@@ -10,5 +10,6 @@ _Gracias Oracle Next Education._
 3. [Primeros comandos de Git](03-primeros-comandos.md)
 4. [Branches y Merge](04-branches.md)
 5. [Rebase](05-rebase.md)
+6. [Resolviendo conflictos](06-conflictos.md)
 
 [Regresar al inicio](/README.md)
