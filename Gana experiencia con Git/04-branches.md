@@ -29,6 +29,10 @@ Para crear una branch y posicionarse al mismo tiempo en la nueva branch se usa e
 
 ``git checkout -b nueva-funcion``
 
+<br>
+<br>
+
+## Eliminar una rama
 Para eliminar una branch creada se usa el siguiente commando:
 
 ``git branch -d nueva-funcion``
